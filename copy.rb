@@ -5,7 +5,9 @@ require 'fileutils'
   dnsregistrar
   dnssec-oracle
   ens
+  ens-022
   ethregistrar
+  ethregistrar-202
   resolver
   subdomain-registrar
 ).each do |path|
