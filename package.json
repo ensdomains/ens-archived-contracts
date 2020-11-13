@@ -1,10 +1,10 @@
 {
-  "name": "ensdomain-contracts",
-  "version": "0.0.3",
+  "name": "@ensdomains/contracts",
+  "version": "0.0.1",
   "description": "Collection of varios smart contracts\"",
   "scripts": {
     "prepublishOnly": "ruby copy.rb",
-    "pub": "yarn publish"
+    "pub": "yarn publish --access public"
   },
   "author": "",
   "license": "ISC",
