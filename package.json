@@ -1,6 +1,6 @@
 {
   "name": "@ensdomains/contracts",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Collection of varios smart contracts\"",
   "scripts": {
     "prepublishOnly": "ruby copy.rb",
@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@ensdomains/dnsregistrar": "^0.3.9",
-    "@ensdomains/dnssec-oracle": "^0.1.2",
+    "@ensdomains/dnssec-oracle": "^0.2.0",
     "@ensdomains/ens": "^0.4.5",
     "@ensdomains/ens-022": "npm:@ensdomains/ens@0.2.2",
     "@ensdomains/ethregistrar": "^2.0.4",

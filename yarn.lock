@@ -63,6 +63,13 @@
   dependencies:
     dns-packet "^5.0.4"
 
+"@ensdomains/dnssec-oracle@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@ensdomains/dnssec-oracle/-/dnssec-oracle-0.2.0.tgz#eb3eac72230bbe76729a0bb0fc67c0af1ef62001"
+  integrity sha512-dYVCNhr3DIjE8uEGQ3PXElUxl4bkfltHz0LcL5DPgiaXehjLPvi4wtbtmV0jRXb3EhSaGDYBDiHrKfJ0wG7IoA==
+  dependencies:
+    dns-packet "^5.0.4"
+
 "@ensdomains/ens-022@npm:@ensdomains/ens@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@ensdomains/ens/-/ens-0.2.2.tgz#b28491b3b13d26cf5c7a0dd6b2f92e5abc72f65c"
