@@ -26,7 +26,7 @@ contracts/
 ## How to install
 
 ```
-npm install --save '@ensdomains/contracts'
+npm install --save '@ensdomains/ens-archived-contracts'
 
 ```
 
@@ -34,15 +34,5 @@ npm install --save '@ensdomains/contracts'
 
 ```
 import { abi as oldResolverContract } from 'ensdomain-contracts/abis/ens-022/PublicResolver.json'
-import { abi as resolverContract } from 'ensdomain-contracts/abis/resolver/Resolver.json'
-import { abi as testRegistrarContract } from 'ensdomain-contracts/abis/ens/TestRegistrar.json'
-import { abi as legacyAuctionRegistrarContract } from 'ensdomain-contracts/abis/ens/HashRegistrar'
-import { abi as deedContract } from 'ensdomain-contracts/abis/ens/Deed'
 ```
 
-
-## How to add new contract
-
-1. `yarn add --dev PACKAGENAME`
-2. Add the package into `copy.rb`
-3. Run `yearn pub` which runs `copy.rb` and publish the repo
