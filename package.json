@@ -1,5 +1,5 @@
 {
-  "name": "@ensdomains/contracts",
+  "name": "@ensdomains/ens-archived-contracts",
   "version": "0.0.1",
   "description": "Collection of varios smart contracts\"",
   "scripts": {
